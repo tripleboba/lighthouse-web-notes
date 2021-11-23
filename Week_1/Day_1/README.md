@@ -6,11 +6,16 @@ Work on your code iteratively – that means in small pieces.
 
 To help you figure out how to use `hungry` and `availableTime` inside your function, try outputting their values to the Terminal as follows.
 
+Learning about process.agrv
+Calling file and perform operating with Node.js using command line
+Making a Lodash clone library
+* creat checking function assertEqual for checking 2 vars
+
+
+
 ```javascript
 function whatToDoForLunch(hungry, availableTime) {
   console.log("hungry is", hungry);
   console.log("availableTime is", availableTime);
 }
 ```
-#### Assignments 📚
-1. [Lunch](lunch_assignment.js) - refactor the function w/ 2 paramenter (boolean, number) to return console suggestion for taking lunch or not

@@ -1,2 +1,2 @@
-## Web Development Bootcamp Note - LHL
+## Web Development Bootcamp Notes - LHL
 ### November 2021 cohort

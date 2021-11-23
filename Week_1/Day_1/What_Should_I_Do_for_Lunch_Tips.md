@@ -12,3 +12,5 @@ function whatToDoForLunch(hungry, availableTime) {
   console.log("availableTime is", availableTime);
 }
 ```
+#### Assignments 📚
+1. [Lunch](lunch_assignment.js) - refactor the function w/ 2 paramenter (boolean, number) to return console suggestion for taking lunch or not

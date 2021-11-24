@@ -7,3 +7,4 @@
 > Functions, Arrays, and Loops
 1. [Lunch](/Day_1/lunch_assignment.js) - refactor the function w/ 2 paramenter (boolean, number) to return console suggestion for taking lunch or not
 2. [Min value](/Day_2/min.js) - return the min value from an array
+3. [Join Array String](/Day_2/joinList.js) - join the strings in an array together, seperated with a ',' between them

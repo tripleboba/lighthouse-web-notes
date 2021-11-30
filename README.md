@@ -19,8 +19,12 @@
 10. [.filter() func](/Week_1/Day_4/passingGrades.js) - super simple practice
 11. [swapper](/Week_1/Day_4/swapper.js) - pair programming | swap the values of 2 objs with each other using their keys
 
-> Recursion Intro
+##### ---- Recursion Intro ----
+13. [nestedArray](/Week_1/Day_4/nested_array_recursion.js) - apply recursion to loop through nested arrays (doesn't matter how nested the array is)
+14. [sum](/Week_1/Day_4/sum_recursive.js) - apply recursion to return sum of numbers
 
+##### ---- Mocha and Chai Test Intro ----
+15. [palindromes](/Week_1/Day_5/web-js-palindromes/lib/palindromes.js) - implement the function to check if the string is palindromes then check with mocha and chai test
 
 > [Week 2](/Week_2) : 
 > Asynchronous Flow

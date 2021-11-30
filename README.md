@@ -11,7 +11,7 @@
 4. [Roll 6-sided Dice](/Week_1/Day_2/dice-roller.js) - Get an array of random number from 1 -> 6 based on the input (number of time) from command line
 5. [Music Library](/Week_1/Day_3/musicLibrary.js) - 
 
-> Callbacks Intro
+##### ---- Callbacks Intro ----
 6. [findWaldo](/Week_1/Day_4/findWaldo.js) - use loop and call a function from other function to loop through a string array to find 'Waldo'
 7. [findWaldo - forEach()](/Week_1/Day_4/findWaldoForEach.js) - replace loop and put .forEach() into practice
 8. [findWaldo - anonymous func](/Week_1/Day_4/findWaldoAnonymouse.js) - use forEach() to loop and apply anonymous func practice

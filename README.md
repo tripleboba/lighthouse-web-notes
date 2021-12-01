@@ -32,4 +32,4 @@
 17. [Typewriter String](/Week_2/Day_2/typewriter.js) - animate the string to look like it's being typed out by revealing one character at a time with `setTimeout()` and `process.stdout.write`.
 ![](display/typewriter.gif)
 18. [Spinner](/Week_2/Day_2/spinner.js) - animate the symbol string to look like it's spinning with `setTimeout()`, `process.stdout.write`, and `\r`.
-![](display/spinner.gif)
+<img src="display/spinner.gif" width = 300/>

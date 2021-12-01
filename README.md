@@ -26,5 +26,11 @@
 ##### ---- Mocha and Chai Test Intro ----
 15. [Palindromes Check](/Week_1/Day_5/web-js-palindromes/lib/palindromes.js) - implement the function to check if the string is palindromes then check with mocha and chai test
 
-> [Week 2](/Week_2) : 
+### [Week 2](/Week_2) : 
 > Asynchronous Flow
+16. [setTimeout Func](/Week_2/Day_2/setTimeout.js) - super simple practice
+17. [Typewriter String](/Week_2/Day_2/typewriter.js) - animate the string to look like it's being typed out by revealing one character at a time with `process.stdout.write`
+
+18.
+19.
+20.

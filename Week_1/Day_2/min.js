@@ -1,12 +1,14 @@
 const min = function(numbers) {
   // Write code here that returns the smallest value in numbers
-  let holder = numbers[0];
-  for (let n of numbers) {
-    if (n < holder) holder = n;
-  }
-  return holder;
-};
+  // let holder = numbers[0];
+  // for (let n of numbers) {
+  //   if (n < holder) holder = n;
+  // }
+  // return holder;
 
+  // refactor
+  return Math.min(...numbers);
+};
 
 /*
  * This is some test runner code that's simply calling our min function defined
@@ -14,7 +16,7 @@ const min = function(numbers) {
  */
 
 const flightPrices = [1260, 490, 599, 1400, 820];
-console.log(`The cheapest flight amongst $1260, $490, $599, $1400 and $820 costs ${min(flightPrices)}`);
+console.log(`The cheapest flight amongst $1260, $490, $599, $1400 and $820 costs $${min(flightPrices)}`);
 
 const golfScores = [-1, 3, 0, -4, 1, 4, -2];
 console.log(`The winning golf score amongst -1, 3, 0, -4, 1, 4 and -2 is ${min(golfScores)}`);

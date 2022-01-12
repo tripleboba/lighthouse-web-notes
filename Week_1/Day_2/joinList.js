@@ -26,7 +26,7 @@
 // refactor
 const joinList = arr => {
   // empty []
-  if (!arr.length) return arr;
+  if (!arr.length) return "";
   let output = "";
   let i = 0;
   while (i < arr.length - 1) {

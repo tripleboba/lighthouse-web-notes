@@ -9,17 +9,32 @@
  * Note: We can NOT use the built-in Array join function.
  */
 
+// const joinList = arr => {
+//   let output = "";
+//   let i = 0;
+//   // empty input check
+//   if (arr.length === 0 || arr[i] === "") return output;
+//   // get the elements
+//   while (i < arr.length - 1) {
+//     output += arr[i] + ', ';
+//     i++;
+//   }
+//   output += arr[arr.length - 1]; // so that the last output wouldn't include , at the end
+//   return output;
+// };
+
+// refactor
 const joinList = arr => {
+  // empty []
+  if (!arr.length) return arr;
   let output = "";
   let i = 0;
-  // empty input check
-  if (arr.length === 0 || arr[i] === "") return output;
-  // get the elements
   while (i < arr.length - 1) {
-    output += arr[i] + ', ';
-    i++;
+    output += `${arr[i]}, `;
+    i++
   }
-  output += arr[arr.length - 1]; // so that the last output wouldn't include , at the end
+  // for the last element
+  output += `${arr[arr.length - 1]}`;
   return output;
 };
 
@@ -29,5 +44,5 @@ const conceptList = ["gists", "types", "operators", "iteration", "problem solvin
 const concepts = joinList(conceptList);
 console.log(`Today I learned about ${concepts}.`);
 
-// Empty string
-console.log(`Empty input returns ${joinList([""])}`);
+// // Empty string
+console.log(`Empty array input returns: ${joinList([])}`);
